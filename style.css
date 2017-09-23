@@ -1,0 +1,44 @@
+body{
+    margin-left: 2%;
+}
+
+#main-section{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+ #select,
+ #input{
+    border: 1px solid #6AD1E7; 
+ }
+
+#input{
+    height: 23px;
+}
+
+button{
+    border-radius: 5px;
+    height: 30px;
+}
+
+#calculate{
+    background-color: #4D4DFF;
+    color: white;
+}
+
+#reset{
+    background-color: #ff4d4d;
+    color: white;
+}
+
+#steps{
+    background-color: #d8d7d7;
+    height: 200px;
+    width: 25%;
+    padding-top: 20px;
+}
+
+#result{
+    font-size: 20px;
+}

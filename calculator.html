@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+
+</head>
+
+<body>
+    <h1>Calculator</h1>
+
+    <div id="main-section">
+        <select id="select">
+            <option value="Add">add</option>
+            <option value="Subtract">subtract</option>
+            <option value="Multiply">multiply</option>
+            <option value="Divide">divide</option>
+            <option value="Apply">apply</option>
+        </select>
+
+        <div id="input_field">
+            <input id="input" type="text" placeholder="enter a number">
+        </div>
+        <button id="add_step">Add step</button>
+    </div>
+    
+    <ol id="steps"></ol>
+
+    <button id="calculate">Calculate</button>
+    <button id="reset">Reset</button>
+
+    <div id="result"></div>
+
+    <script src="jquery.min.js"></script>
+    <script src="calculator.js"></script>
+    <script>
+    </script>
+</body>
+
+</html>
